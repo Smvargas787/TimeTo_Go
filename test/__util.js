@@ -1,4 +1,4 @@
-const util = require('../lib/util');
+const util = require('../src/lib/util');
 const expect = require('chai').expect;
 
 describe('TimeTo_Go Debug Test: ', () => {
