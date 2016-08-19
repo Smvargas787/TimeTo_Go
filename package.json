@@ -24,6 +24,7 @@
     "eslint-plugin-react": "6.1.2"
   },
   "dependencies": {
+    "chai": "3.5.0",
     "colors": "1.1.2",
     "moment": "2.14.1"
   }
