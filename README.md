@@ -10,7 +10,7 @@ npm install timeto_go --save
 If the file is not already included, create a ``log`` folder in your project with the file ```.logs```. This will hold and save all of your debug messages.
 
 ```
-/lib/.logs
+src/lib/.logs
 ```
 
 Require the 'timeto_go' package like so:
