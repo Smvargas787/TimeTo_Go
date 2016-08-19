@@ -1,6 +1,6 @@
 {
   "name": "timeto_go",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Utility Tool To Help Debug",
   "main": "src/util.js",
   "scripts": {
