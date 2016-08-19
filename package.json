@@ -22,5 +22,9 @@
     "eslint-plugin-import": "1.13.0",
     "eslint-plugin-jsx-a11y": "2.1.0",
     "eslint-plugin-react": "6.1.2"
+  },
+  "dependencies": {
+    "colors": "1.1.2",
+    "moment": "2.14.1"
   }
 }
