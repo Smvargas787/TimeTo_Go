@@ -1,8 +1,8 @@
 {
   "name": "timeto_go",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility Tool To Help Debug",
-  "main": "lib/util.js",
+  "main": "src/lib/util.js",
   "scripts": {
     "test": "mocha"
   },
