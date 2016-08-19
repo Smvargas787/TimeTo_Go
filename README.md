@@ -13,7 +13,7 @@ If the file is not already included, create a ``log`` folder in your project wit
 /lib/.logs
 ```
 
-Require the 'timeto_go' package like so.
+Require the 'timeto_go' package like so:
 
 ```
 const util = require('timeto_go');
