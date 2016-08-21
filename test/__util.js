@@ -10,11 +10,11 @@ describe('TimeTo_Go Debug Test: ', () => {
   });
 });
 
-// // -------------------------- TimeStamp Test ----------------------------//
-//
-// describe('TimeTo_Go Time Test: ', () => {
-//   it('Should Read The Time/Date Format', (done) => {
-//     expect(util.time).to.not.equal(null);
-//     done();
-//   });
-// });
+// -------------------------- TimeStamp Test ----------------------------//
+
+describe('TimeTo_Go Time Test: ', () => {
+  it('Should Read The Time/Date Format', (done) => {
+    expect(util.time).to.not.equal(null);
+    done();
+  });
+});
