@@ -1,7 +1,6 @@
 const util = require('../src/util');
 const expect = require('chai').expect;
 
-// Sending Codeship
 // -------------------------- Debug Line Test ----------------------------//
 
 describe('TimeTo_Go Debug Test: ', () => {
