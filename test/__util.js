@@ -18,3 +18,12 @@ describe('TimeTo_Go Time Test: ', () => {
     done();
   });
 });
+
+// Version Number Incrementer
+describe('TimeTo_Go Version Number Increaser Test: ', () => {
+  it('Should Not Return False', (done) => {
+    if (util.vni('1.0.1', 'minor')) {
+      done();
+    }
+  });
+});
