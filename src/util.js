@@ -19,7 +19,6 @@ exports.debug = (title, obj, method) => {
   // -------------------------- DEBUG==TRUE Colors----------------------------//
 
   if (process.env.DEBUG) {
-    fs.appendFile('lib/.logs', `${title} ${obj} ${method}`, { flag: 'a' });
     if (method === 'log') {
       const log = out + colors.green(timeOutput) + format + lineSeperator;
       console.log(log);
