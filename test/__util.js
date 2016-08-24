@@ -18,3 +18,31 @@ describe('TimeTo_Go Time Test: ', () => {
     done();
   });
 });
+
+// -------------------------- Version Number Increaser Test ----------------------------//
+
+describe('TimeTo_Go Version Number Increaser Test: ', () => {
+  it('Should Return a String', (done) => {
+    const incVersion = util.incVersion('1.0.0', 'patch');
+
+    if (incVersion && incVersion === String(incVersion)) {
+      done();
+    }
+  });
+
+  it('Should Return False', (done) => {
+    const incVersion = util.incVersion(1.2, 'minor');
+
+    if (!incVersion) {
+      done();
+    }
+  });
+
+  it('Should Return False', (done) => {
+    const incVersion = util.incVersion('1.0.0', 'pink');
+
+    if (!incVersion) {
+      done();
+    }
+  });
+});
